@@ -1,12 +1,12 @@
-const name = "thapelo";
-const surNa = "rebombo";
+import Header from "./Components/Header"
+import Task from "./Components/Task"
 
 function App() {
 
   return (
     <div className="container">
-    <h1>Hello Guys</h1>
-    <p>{name + " " + surNa}</p>
+      <Header />
+      <Task />
     </div>
   )
 }
